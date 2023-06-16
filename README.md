@@ -23,6 +23,7 @@ The following datasets and models were tested:
 
 
 ## Results
+Detailed results can be found in [`results/`](results/).
 
 ### Image
 Our study shows that higher levels of perturbation significantly decrease model performance, as demonstrated in two sets of experiments on ImageNet models and speaker recognition/sentiment analysis models. The results indicate a negative correlation between perturbation strength and model performance across all models and perturbation types. The impact of perturbations was dependent on the type applied and the model's inherent capabilities. For instance, in ImageNet models, noise and occlusion perturbations caused rapid decline in performance, whereas performance against compression and pixelize perturbations deteriorated as the perturbation strength increased.
